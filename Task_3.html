@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav-bar{
+            display: flex;
+            background-color: black;
+            justify-content: space-around;
+            text-align: center;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+         .nav-items{
+           padding: 20px; 
+           
+        } 
+        @media screen and (max-width:768px){
+            .nav-bar{
+                flex-direction: column;
+                background-color: gray;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-items"><a href="">Home</a></div>
+        <div class="nav-items"><a href="">About</a></div>
+        <div class="nav-items"><a href="">Service</a></div>
+        <div class="nav-items"><a href="">Portfolio</a></div>
+        <div class="nav-items"><a href="">Contact</a></div>
+    </nav>
+</body>
+</html>
